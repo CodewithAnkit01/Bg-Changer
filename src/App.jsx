@@ -39,6 +39,20 @@ return(
                 style={{backgroundColor: "pink"}}>
                     Pink</button>
 
+                <button
+                onClick={() => setcolor("yellow")}
+                className="outline-none px-4 py-1 rounded-full shadow-lg  "
+                style={{backgroundColor: "yellow"}}>
+                    Yellow </button>
+
+                
+                <button
+                onClick={() => setcolor("skyblue")}
+                className="outline-none px-4 py-1 rounded-full shadow-lg  "
+                style={{backgroundColor: "skyblue"}}>
+                    SkyBlue </button>
+
+
 
             </div>
         </div>
